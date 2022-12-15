@@ -24,7 +24,7 @@ function App() {
       >
         <AccessibilityNew fontSize="large" />
         <Link to="/">
-          <Typography variant="h3">TEST</Typography>
+          <Typography variant="h3">MENU</Typography>
         </Link>
         <AccessibilityNew fontSize="large" />
 
