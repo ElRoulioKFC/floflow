@@ -25,7 +25,7 @@ export function EnigmeTrois() {
                         }
                     }}
                 >
-                    {i}
+                    {"   "}
                 </Button>
             );
         }
@@ -133,7 +133,7 @@ export function EnigmeTrois() {
             </Box>
             <div>
                 <p>
-                    {testF() ? <Typography variant="h4">  BRAVO tu as trouvé</Typography> : <></>}
+                    {testF() ? <Typography variant="h4">  Le crime s'est déroulé dans le bâtiment fib(6)</Typography> : <></>}
                     <a hidden href="https://bit.ly/responseToEnigma">
                     </a>
                 </p>
