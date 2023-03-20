@@ -107,7 +107,7 @@ export function Cryptage() {
             spacing = {2}
         >
             <Typography  variant="h4">Enigma</Typography>
-            <TextField
+            {/*<TextField
                 id="outlined-select-currency"
                 select
                 label="type"
@@ -139,7 +139,7 @@ export function Cryptage() {
                         {option.label}
                     </MenuItem>
                 ))}
-            </TextField>
+            </TextField>*/}
                     <Stack
                         sx={{ 
                             display: "flex",
