@@ -35,7 +35,7 @@ export const RotorIII: RotorType = {
 export const RotorIV: RotorType = {
     name: "RotorIV",
     alphabet: ["E", "S", "O", "V", "P", "Z", "J", "A", "Y", "Q", "U", "I", "R", "H", "X", "L", "N", "F", "T", "G", "K", "D", "C", "M", "W", "B"],
-    alphabetTransformed : ["E","S","O","V","P","Z","J","A","Y","Q","U","I","R","H","X","L","N","F","T","G","K","D","C","M","W","B"],
+    alphabetTransformed : ["K","M","F","L","G","D","Q","V","Z","N","T","O","W","Y","H","X","U","S","P","A","I","B","R","C","J","E"],
     size: 26,
     roll: 0
 }
@@ -43,7 +43,7 @@ export const RotorIV: RotorType = {
 export const RotorV: RotorType = {
     name: "RotorV",
     alphabet: ["V", "Z", "B", "R", "G", "I", "T", "Y", "U", "P", "S", "D", "N", "H", "L", "X", "A", "W", "M", "J", "Q", "O", "F", "E", "C", "K"],
-    alphabetTransformed : ["V","Z","B","R","G","I","T","Y","U","P","S","D","N","H","L","X","A","W","M","J","Q","O","F","E","C","K"],
+    alphabetTransformed : ["G","D","R","S","U","W","K","N","Q","O","Z","J","T","Y","H","X","V","A","I","B","L","C","P","E","M","F"],
     size: 26,
     roll: 0
 }

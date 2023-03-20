@@ -52,9 +52,7 @@ export function Enigma(props: EnigmaProps) {
         letterPlace = props.rotorIII.alphabet.indexOf(letter);
         setHighLightLetterRotor3In2(letterPlace)
 
-        console.log("before",letterPlace)
         letterPlace = reflector(letterPlace);
-        console.log(letterPlace)
         setHighLightLetterRotor3Out(letterPlace)
 
         setHighLightLetterRotor3Out2(letterPlace)
