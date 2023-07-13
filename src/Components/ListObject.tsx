@@ -1,6 +1,8 @@
 import { Box, Button, TextField } from "@mui/material";
 import { useState } from "react";
 import { Object } from "./Object";
+import data from "../assets/objectList.json";
+
 export function ListObject(){
     const [objects, setObjects] = useState<string[]>([])
     const [name, setName] = useState<string>("")
