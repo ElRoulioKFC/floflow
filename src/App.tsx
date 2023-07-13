@@ -23,9 +23,6 @@ function App() {
         }}
       >
         <AccessibilityNew fontSize="large" />
-        <Link to="/">
-          <Typography variant="h3">MENU</Typography>
-        </Link>
         <AccessibilityNew fontSize="large" />
 
       </Stack>

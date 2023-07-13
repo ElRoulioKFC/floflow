@@ -1,6 +1,7 @@
 import { Box, Stack, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import React from "react";
+import { ListObject } from "../Components";
 
 export function HomePage() {
     return (
@@ -8,9 +9,7 @@ export function HomePage() {
            
             <Box sx={{ display: "flex", justifyContent: "center" }}>
                 <Stack direction="row" spacing={2}>
-                    <Link to="/cryptage">
-                        <Typography variant="h4">Enigma</Typography>
-                    </Link>
+                    <ListObject />
                     
                 </Stack>
             </Box>
