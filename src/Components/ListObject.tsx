@@ -67,6 +67,15 @@ export function ListObject(){
             }>
                 saveInJson
             </Button>
+ <Button
+                onClick={()=>{
+                    //import from json
+                    const jsonData = data.objectsListJson as string[]
+                    setObjects(jsonData)
+                }
+            }>
+                importFromJson
+            </Button>
 
         </Box>
     )
